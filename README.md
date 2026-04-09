@@ -1,26 +1,9 @@
-<!--
-   README.md template
+# APEX (apex:) Local Dictionary
 
-   In this template, values delimited by braces (e.g., "{value}") should be
-   replaced by the appropriate values for your namespace. The braces
-   should then be removed. Example values are provided as comments for
-   potentially mysterious cases.
--->
-
-# {dictionary name} ({prefix:}) {"Discipline" or "Local"} Dictionary
-<!-- EXAMPLES
-   Spectral (sp:) Discipline Dictionary
-   DART Mission (dart:) Local Dictionary
--->
-
-The {dictionary name} dictionary provides classes and attributes for
-{brief functional description}
+The APEX dictionary provides classes and attributes specific to the mission and its target.
 
 ### Steward
-{steward name} ({steward GitHub handle}), {steward node}
-<!-- EXAMPLE
-     Anne Raugh (@acraugh), Small Bodies Node (SBN)
--->
+Carol Neese (@neese), SBN-PSI
 
 # Documentation
 
@@ -28,10 +11,7 @@ The {dictionary name} dictionary provides classes and attributes for
 does not, edit the sentence and link accordingly. -->
 The User's Guide and detailed documentation for using this dictionary in
 label design and processing
-are located at https://pds-data-dictionaries.github.io/{repo id}.
-<!-- EXAMPLE
-     are located at https://pds-data-dictionaries.github.io/ldd-template.
--->
+are located at https://pds-data-dictionaries.github.io/ldd-apex.
 
 # Latest Release
 
@@ -55,9 +35,9 @@ are located at https://pds-data-dictionaries.github.io/{repo id}.
        * Review the [Change Log] (ChangeLog.md)
        * Review the [Change Log] (src/CHANGELOG.md)
 -->     
-* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/#{dictionary prefix})
+* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/index-missions.shtml#apex)
 * On [GitHub](../../releases/latest)
-* Review the [Change log]({change log file name})
+* Review the [Change log](CHANGELOG.md)
 
 # About This Repository
 <!-- The top-level directory structure and names must not change, but if
@@ -87,12 +67,10 @@ The `gh-pages` branch is auto-generated and used to run the documentation site. 
 # Contributing to this Dictionary
 
 ## Suggest a Feature or Report a Bug
-<!-- replace "repo id" below with the "ldd-xxx" string from the
-GitHub repo URL.-->
 
 There is a common place to request enhancements and report problems for
 any PDS-curated dictionary - the [PDS4 Issue Repo](https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues/new/choose).
-Search for the \[{repo id}\] update request block and click the green
+Search for the \[ldd-apex\] update request block and click the green
 "Get Started" button.
 
 ## Contribute Code or documentation
@@ -129,7 +107,7 @@ You will need to install *[LDDTool]* (https://nasa-pds.github.io/pds4-informatio
 you can manually run [LDDTool](https://nasa-pds.github.io/pds4-information-model/model-lddtool/index.html) on the IngestLDD using the following command:
 
 ```
-lddtool -lpsnJ {IngestLDD file name}.xml
+lddtool -lpsnJ PDS4_APEX_IngestLDD.xml
 ```
 
 # Generating Namespace Documentation
