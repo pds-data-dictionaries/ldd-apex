@@ -1,7 +1,6 @@
-# APEX Mission (apex:) Local Dictionary
+# APEX (apex:) Local Dictionary
 
-The APEX Mission dictionary provides classes and attributes for
-the APEX mission, including classes, attributes and rules specific to the mission and its target.
+The APEX dictionary provides classes and attributes specific to the mission and its target.
 
 ### Steward
 Carol Neese (@neese), SBN-PSI
@@ -36,7 +35,7 @@ are located at https://pds-data-dictionaries.github.io/ldd-apex.
        * Review the [Change Log] (ChangeLog.md)
        * Review the [Change Log] (src/CHANGELOG.md)
 -->     
-* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/#apex)
+* Download dictionary files from the [PDS Data Dictionaries Page](https://pds.nasa.gov/datastandards/dictionaries/index-missions.shtml#apex)
 * On [GitHub](../../releases/latest)
 * Review the [Change log](CHANGELOG.md)
 
